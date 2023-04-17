@@ -3,8 +3,10 @@ html {
     scroll-behavior: smooth;
 }
 
+/*inicio*/
+
 #inicio {
-    background: linear-gradient(rgb(231, 229, 108),rgb(208, 205, 38), rgb(192, 180, 10) );
+    background: linear-gradient(rgb(231, 229, 108),rgb(208, 205, 38), rgb(192, 189, 10) );
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -116,4 +118,86 @@ html {
 #icono-nav {
     color: #fff;
     display: none;
+}
+
+/*sobre mi*/
+
+#acerca_de {
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color: black;
+    display: flex;
+}
+
+#acerca_de .container .contenedor-foto {
+    max-width: 400px;
+    margin-right: 80px;
+}
+
+#acerca_de .container .contenedor-foto img{
+    padding: 20px;
+    width: 100%;
+    border-radius: 20%;
+    background-color: #ffe600c2;
+    min-width: 150px;
+    margin-bottom: 30px;
+}
+
+#acerca_de .container .sobreMi {
+    margin: 0px 40px;
+}
+
+#acerca_de .container .sobreMi .titulo-seccion {
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+}
+
+#acerca_de .container .sobreMi h2 {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0px;
+    letter-spacing: 2px;
+}
+
+#acerca_de .sobreMi h2 span {
+    color: blueviolet;
+}
+
+#acerca_de .sobreMi h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#acerca_de .sobreMi p {
+    font-size: 14px;
+    line-height: 25px;
+    color: gray;
+    margin-bottom: 12px;
+}
+
+#acerca_de .sobreMi a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid;
+    margin-top: 30px;
+    transition: .5s;
+}
+
+#acerca_de .sobreMi a:hover {
+    background-color: gold;
+}
+
+/*experiencia*/
+
+#experiencia {
+    background-color: #292929;
 }
