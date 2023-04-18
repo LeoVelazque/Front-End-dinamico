@@ -6,14 +6,14 @@ html {
 /*inicio*/
 
 #inicio {
-    background: linear-gradient(rgb(55, 117, 102),rgb(21, 121, 107), rgb(11, 77, 60) );
+    background-image: url(abstract-banner-design-vector.jpg);
     background-size: cover;
     background-position: center center;
     height: 100vh;
 }
 
 #inicio .contenido header {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.692);
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -41,14 +41,15 @@ html {
 
 #inicio .contenido header .contenido-header ul a {
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(245, 245, 245);
     margin: 0 12px;
     font-weight: 400;
     transition: .5s;
 }
 
 #inicio .contenido header .contenido-header ul a:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(243, 239, 17);
+    font-size: 25px;
 }
 
 #inicio .contenido header .contenido-header .redes a {
@@ -59,8 +60,13 @@ html {
     transition: .5s;
 }
 
+#login {
+    display: inline-block;
+}
+
 #inicio .contenido header .contenido-header .redes a:hover {
-    color: rgb(245, 245, 245);
+    color: rgb(255, 238, 0);
+    font-size: 30px;
 }
 
 #inicio .contenido .presentacion {
@@ -79,19 +85,22 @@ html {
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 5px;
+    color: #fff;
 }
 
 #inicio .contenido .presentacion h2 {
     font-size: 45px;
     text-align: center;
+    color: rgb(255, 255, 255);
 }
 
 #inicio .contenido .presentacion h2 span {
     font-size: 35px;
-    color: rgb(255, 255, 255);
+    color: rgb(224, 221, 5);
 }
 
 #inicio .contenido .presentacion .descripcion {
+    color: #fff;
     max-width: 700px;
     margin: 25px auto;
     font-size: 18px;
@@ -103,16 +112,16 @@ html {
     display: inline-block;
     margin: 25px;
     padding: 20px 25px;
-    border: 2px solid #000000;
+    border: 2px solid #ffffff;
     border-radius: 50px;
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
     transition: .5s;
 }
 
 #inicio .contenido .presentacion a:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(231, 235, 5);
 }
 
 #icono-nav {
@@ -152,7 +161,7 @@ html {
     font-size: 22px;
     text-transform: uppercase;
     text-decoration: underline;
-    text-decoration-color: blueviolet;
+    text-decoration-color: rgb(36, 187, 137);
 }
 
 #acerca_de .container .sobreMi h2 {
@@ -163,7 +172,7 @@ html {
 }
 
 #acerca_de .sobreMi h2 span {
-    color: blueviolet;
+    color: rgb(43, 207, 152);
 }
 
 #acerca_de .sobreMi h3 {
@@ -199,12 +208,19 @@ html {
 /*experiencia*/
 
 #experiencia {
-    background-color: #292929;
+    background-image: url(abstract-banner-design-vector.jpg);
+    background-position: 50%;
     padding: auto;
+    padding-bottom: 125px;
+    align-items: center;
 }
 
 #experiencia .titulo-seccion {
-    color: #fff;
+    color: #f8e00c;
+    background-color: #222222;
+    width: 100%;
+    margin-bottom: 150px;
+    
     text-align: center;
     padding: 70px;
     font-size: 30px;
@@ -213,11 +229,12 @@ html {
 
 #experiencias {
     border-radius: 20px;
-    background:linear-gradient(rgb(255, 252, 78),rgb(240, 236, 44),rgb(236, 233, 57)) ;
+    background:linear-gradient(rgba(250, 250, 250, 0.575),rgba(255, 255, 255, 0.719),rgb(104, 184, 150)) ;
+    background-size: 100%;
     max-width: 1500px;
     margin: auto;
     padding: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
 }
 
 #experiencia #experiencias .logo {
@@ -227,39 +244,62 @@ html {
 }
 
 #experiencia #experiencias .logo img {
-    width: 100%;
+    height: 100px;
+    max-width: 200px;  
     padding: auto;
     margin: auto;
 }
 
 #experiencia #experiencias .descripcion {
     align-items: center;
+    padding: auto;
 }
 
 /*educacion*/
 
 #educacion {
-    background-color: blueviolet;
+    background-image: url(libros.jpg);
+    background-size: cover cover;
+    height: auto;
+    padding-bottom: 150px;
+}
+
+#educacion .titulo-seccion {
+    color: #ffe600;
+    background-color: #2b2b2b;
+    width: 100%;
+    margin-bottom: 150px;
+    text-align: center;
+    padding: 70px;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 #educaciones {
     border-radius: 20px;
-    background:linear-gradient(rgb(255, 255, 255),rgb(236, 235, 235),rgb(255, 255, 255)) ;
+    background:linear-gradient(rgba(250, 250, 250, 0.774),rgba(255, 255, 255, 0.712),rgb(104, 184, 150)) ;
     max-width: 1500px;
     margin: auto;
+    padding: auto;
     padding: 20px;
     margin-bottom: 15px;
 }
 
 #educacion #educaciones .logo {
-    padding: 20px; 
+    padding: 1mm; 
     min-width: 250px;
     max-width: 350px;
 }
 
 #educacion #educaciones .logo img {
-    width: 100%;
-    padding: auto;
+    height: 100px;
+    max-width: 200px;  
+    padding: 20px;
     margin: auto;
+    border-radius: 15px;
+}
+
+#educacion #educaciones .logo img:hover {
+background-color: #f3ef0c;
 }
 
