@@ -501,8 +501,10 @@ background-color: #f3ef0c;
     }    
 }
 
+/*edicion*/
+
 #boton-editor {
-    position: absolute;
+    position:absolute;
     display: inline-block;
     margin-left: 30px;
     color: #000000;  

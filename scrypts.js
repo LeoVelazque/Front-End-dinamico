@@ -9,13 +9,20 @@ function responsiveMenu() {
 
 //login
 function registrarse() {
-    document.getElementById("login").style.display = "block";
+    var x = document.getElementById("login");
+    if (x.style.display === "none") {
+        x.style.display = "block"
+    }
+    else (x.style.display = "none")
 }
 
-function salir() {
-    document.getElementById("login").style.display = "none";
-}
 
 //editable
-
+function escribir() {
+    var x = document.getElementById("espacio-escribir");
+    if (x.style.display === "none") {
+        x.style.display = "block"
+    }
+    else (x.style.display = "none")
+}
     
