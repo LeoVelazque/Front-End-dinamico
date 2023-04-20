@@ -46,26 +46,30 @@
                         <a href=""><i class="fa-brands fa-linkedin"></i></a>
                         </div>                                   
                     </div>
-                    <a href="" id="registrarse"><i class="fa-solid fa-right-to-bracket">  ingresar</i></a>
+                    <div id="login2" onclick="registrarse()">
+                        <i class="fa-solid fa-right-to-bracket">  ingresar</i>
+                    </div>
+                    
                 </div>
-            </header>
-            
+            </header>           
             <div class="presentacion">
                 <p class="bienvenida">bienvenidos</p>
                 <h2><span>Leonardo Velazque</span></h2>
                 <h2>Developer Full Stack Junior</h2>
                 <p class="descripcion">una descripcion en la que no se que poner jasjsj</p>
                 <a href="#acerca_de">ir a portfolio</a>
+                <!--login-->
                 <div class="container" id="login">
-        <div class="imagen">
-            <img src="pc_soporte.jpeg" alt="" id="pc">
-        </div>
-        <div class="formulario" id="formulario">
-            <p>usuario <input type="text"></p>
-            <p>contraseña <input type="password"></p>
-            <button>ingresar</button>
-        </div>
-    </div>
+                    <div class="imagen">
+                        <img src="pc_soporte.jpeg" alt="" id="pc">
+                    </div>
+                    <div class="formulario" id="formulario">
+                        <p>usuario <input type="text"></p>
+                        <p>contraseña <input type="password"></p>
+                        <button>ingresar</button>
+                        <button id="salir" onclick="salir()">salir</button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -80,7 +84,8 @@
                     </div>
                     <div class="col col-sm-12 col-md-6 col-lg-6">
                         <p class="titulo-seccion">sobre mi:</p>
-                        <h2>Hola, soy <span>Leonardo Velazque</span></h2>
+                        <h2>Hola, soy <span>Leonardo Velazque <i class="fa-solid fa-pen" id="boton-editor"></i></span></h2>
+                        
                         <h3>desarrollador web</h3>
                         <p>Sit tempor anim exercitation proident mollit. Consectetur et pariatur occaecat nostrud. Minim anim velit reprehenderit excepteur.</p>
                         <p>Velit nostrud cupidatat do veniam.</p>
@@ -284,11 +289,11 @@
     </section>
     <section id="footer">
         <p>todos los derechos reservados 2023</p>
-        <div class="redes">
+        <div class="redesFooter">
             <a href=""><i class="fa-brands fa-github"></i>github</a>
-                        <a href=""><i class="fa-brands fa-instagram"></i>instagram</a>
-                        <a href=""><i class="fa-brands fa-linkedin"></i>linkedin</a>
-                        <a href=""><i class="fa-brands fa-whatsapp"></i>+54 (299) 6246148</a>
+            <a href=""><i class="fa-brands fa-instagram"></i>instagram</a>
+            <a href=""><i class="fa-brands fa-linkedin"></i>linkedin</a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i>+54 (299) 6246148</a>
         </div>
     </section>
     

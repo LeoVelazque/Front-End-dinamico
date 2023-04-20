@@ -1,3 +1,4 @@
+//nav responsivo
 function responsiveMenu() {
     var x = document.getElementById("nav");
     if (x.className === "") {
@@ -5,3 +6,16 @@ function responsiveMenu() {
     }
     else (x.className = "")
 }
+
+//login
+function registrarse() {
+    document.getElementById("login").style.display = "block";
+}
+
+function salir() {
+    document.getElementById("login").style.display = "none";
+}
+
+//editable
+
+    

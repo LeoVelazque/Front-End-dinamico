@@ -5,7 +5,7 @@ html {
 
 /*login*/
 #login {
-    margin: auto;
+    display: none;       
     text-align: center;
     align-items: center;
     border: 2px solid black;
@@ -15,16 +15,21 @@ html {
     padding-right: 3px;
     background: linear-gradient(rgba(206, 206, 206, 0.562), rgb(143, 143, 143), rgba(0, 0, 0, 0.733));
     position: fixed;
-    display: none;
 }
-#pc {
+    
+#login .imagen #pc {
     width: 80%;
     max-width: 200px;
     height: auto;
     border-radius: 20%;
 }
-.formulario p input {
+
+#login .formulario {
+    display: block;
+}
+#login .formulario p input {
     border-radius: 5px;
+    display: block;
 }
 
 /*inicio*/
@@ -90,7 +95,7 @@ html {
     font-size: 40px;
 }
 
-#inicio .contenido header .contenido-header a {
+#login2 {
     text-decoration: none;
     color: #fff;
     display: inline-block;
@@ -98,12 +103,13 @@ html {
     transition: .5s;
 }
 
-#inicio .contenido header .contenido-header a:hover {
+/*login boton*/
+#login2:hover {
     color: rgb(255, 238, 0);
     font-size: 20px;
 }
-
-#login {
+/*fin*/
+#login2 {
     display: inline-block;
 }
 #inicio .contenido .presentacion {
@@ -492,5 +498,27 @@ background-color: #f3ef0c;
     }
     #icono-nav {
         display: block;
-    }
+    }    
 }
+
+#boton-editor {
+    position: absolute;
+    display: inline-block;
+    margin-left: 30px;
+    color: #000000;  
+    padding: 8px;
+    border-radius: 100%;
+}
+
+#boton-editor:hover {
+    background-color: #f3ef0c;
+    -webkit-animation: tiembla 1s infinite;
+    
+}
+
+@-webkit-keyframes tiembla{
+    0%  { -webkit-transform:rotateZ(-5deg); }
+    50% { -webkit-transform:rotateZ( 0deg) scale(.8); }
+    100%{ -webkit-transform:rotateZ( 5deg); }
+    }
+
