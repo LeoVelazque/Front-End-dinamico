@@ -514,11 +514,11 @@ background-color: #f3ef0c;
 
 #boton-editor:hover {
     background-color: #f3ef0c;
-    -webkit-animation: tiembla 1s infinite;
+    animation: tiembla 1s infinite;
     
 }
 
-@-webkit-keyframes tiembla{
+@keyframes tiembla{
     0%  { -webkit-transform:rotateZ(-5deg); }
     50% { -webkit-transform:rotateZ( 0deg) scale(.8); }
     100%{ -webkit-transform:rotateZ( 5deg); }
