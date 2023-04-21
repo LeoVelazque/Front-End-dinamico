@@ -35,7 +35,7 @@ function logMessage(message) {
 }
 
 //controla si se preciono enter
-let textarea = document.getElementById("espacio_escribir")
+let textarea = document.getElementById("nombre_presentacion")
 textarea.addEventListener('keyup', (e) => {
     logMessage('key "${e.key}" released [event: keyup]');
     if (e.key == "Enter") {

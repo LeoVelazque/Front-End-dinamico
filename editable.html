@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="editable.css">
+    <script src="editable.js"></script>
+</head>
+<body>
+    <div id="contenedor">
+        <img src="epet logo.png" alt="" height="150px">
+        <h2 id="nombre">nombre <input type="text" style="display: none;" id="input" oninput="escribir(this.value)"></h2>
+        <p>descripcion</p>
+    </div>
+    <div id="contenedor">
+        <button class="btn-edit" id="boton-editor" onclick="cambiarParrafo()">editar</button>
+    </div>
+</body>
+</html>
